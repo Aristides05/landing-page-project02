@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    font-family: "Inter";
+}
+
+#superior{
+    background-color: #303030;
+    padding: 95px 0px 80px 0px;
+}
+
+#title-superior{
+    margin-left: 45px;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#paragrafe-superior{
+    margin-left: 45px;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#menu{
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.text-column{
+    text-align: center;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+.title-column{
+    margin: 55px 0px 0px 95px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#text-column3{
+    margin-left: 115px;
+}
+
+#mid-website{
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulo-mid{
+    margin: 90px 0px 0px 40px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#text-mid{
+    margin: 10px 0px 0px 40px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#imagem{
+    margin: 5px 0px 45px 180px;
+}
+
+#mid-column1{
+    margin-left: 100px;
+}
+
+#web-form{
+    background-color: #303030;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+
+#title-form{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#name-input{
+    margin-top: 10px;
+}
+
+#email-input{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+button{
+    margin-bottom: 40px;
+    width: 140px;
+    height: 36px;
+    background-color: #C07212;
+    font-weight: bold;
+    text-align: center;
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: translateY(-8px);background-color: #e6840d;
+    transition-duration: 300ms;
+    box-shadow: 0px 0px 10px 0px #063b7762;
+}
+
+input{
+    width: 254px;
+    height: 36px;
+    padding-left: 15px;
+    border: 0px;
+    border-radius: 8px;
+}
